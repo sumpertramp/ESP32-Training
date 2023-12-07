@@ -3,8 +3,8 @@
 #define TXD 17
 #define RXD 16
 
-const char* ssid = "SUPERONLINE_WiFi_4561";
-const char* password = "ermas0478ermas";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 //Set web server pot number to 80
 WiFiServer server(80);
