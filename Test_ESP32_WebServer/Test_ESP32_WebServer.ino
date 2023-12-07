@@ -19,8 +19,8 @@ Notes:Ensure that the ESP32 WiFi settings are properly configured.
 
 #include <WiFi.h>
 
-const char* ssid = "SUPERONLINE_WiFi_4561";
-const char* password = "ermas0478ermas";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 WiFiServer server(80);
 
