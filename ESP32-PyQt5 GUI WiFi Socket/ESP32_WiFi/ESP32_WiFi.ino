@@ -20,8 +20,8 @@ Author's Introduction:
 #include <WiFiClient.h>
 #include <WiFiAP.h>
 
-const char *ssid = "SUPERONLINE_WiFi_4561";
-const char *password = "ermas0478ermas";
+const char *ssid = " WiFi SSID";
+const char *password = "WiFi Password";
 
 WiFiServer server(80);  // TCP server port
 
