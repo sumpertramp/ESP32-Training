@@ -21,8 +21,8 @@ Author's Introduction:
 #include <WiFi.h>
 
 // Enter your network information
-const char* ssid = "Sumeyye";
-const char* password = "sum183542";
+const char* ssid = "SSID";
+const char* password = "password";
 
 unsigned long previousMillis = 0;
 unsigned long interval = 30000;  // Interval for checking WiFi connection in milliseconds
