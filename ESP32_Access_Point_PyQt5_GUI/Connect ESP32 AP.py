@@ -69,7 +69,11 @@ class WiFiClientApp(QWidget):
             # Create a new socket and connect to the ESP32
             self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.s.connect((self.host, self.port))
-            
+
+            # Read the message from ESP32
+            message = self.s.recv(1024).decode('utf-8')
+            print(message)
+          
             # Update the UI to indicate a successful connection
             self.label_connect.setText('Connected')
         except socket.error as e:
